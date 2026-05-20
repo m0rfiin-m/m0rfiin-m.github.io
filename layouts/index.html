@@ -1,0 +1,46 @@
+{{ define "main" }}
+<div class="container">
+    <div class="intro">
+        <span class="intro-label">{{ .Site.Params.program }} &middot; {{ .Site.Params.school }}</span>
+        <h1>Marco Morfin</h1>
+        <p>{{ .Site.Params.description }}</p>
+        <div style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+            <a href="{{ .Site.BaseURL }}work/" style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); border: 1px solid var(--accent); padding: 0.4rem 1rem; text-decoration: none;">View Portfolio &rarr;</a>
+            <a href="{{ .Site.BaseURL }}resume/" style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-dim); border: 1px solid var(--border); padding: 0.4rem 1rem; text-decoration: none;">Resume</a>
+        </div>
+    </div>
+
+    {{ $posts := first 3 (where .Site.RegularPages "Type" "posts") }}
+    {{ if $posts }}
+    <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border);">
+        <div style="font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim); margin-bottom: 1.5rem;">Masters Journal</div>
+        <div class="posts">
+            {{ range $posts }}
+            <article class="post-item">
+                <span class="entry-label">Masters Journal</span>
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+                <div class="meta">
+                    <time>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
+                    {{ if .Params.tags }}
+                    <span class="tags">
+                        {{ range .Params.tags }}
+                        <span class="tag">#{{ . }}</span>
+                        {{ end }}
+                    </span>
+                    {{ end }}
+                </div>
+
+                {{ if .Summary }}
+                <p>{{ .Summary }}</p>
+                {{ end }}
+
+                <a href="{{ .Permalink }}" class="read-more">Read entry &rarr;</a>
+            </article>
+            {{ end }}
+        </div>
+        <a href="{{ .Site.BaseURL }}posts/" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.06em;">All journal entries &rarr;</a>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

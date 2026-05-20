@@ -1,6 +1,6 @@
 baseURL = 'https://m0rfiin-m.github.io/m0rfiin-blog/'
 languageCode = 'en-us'
-title = 'Marco Morfin | Full Sail Masters Journal'
+title = 'Marco Morfin | Digital Portfolio'
 theme = 'morfiin-minimal'
 
 # Content settings
@@ -10,12 +10,12 @@ enableRobotsTXT = true
 enableEmoji = true
 
 [params]
-  description = "A running journal of my Masters program at Full Sail University — lessons learned, projects built, and thoughts along the way."
+  description = "Entertainment business professional specializing in community management, esports strategy, and digital operations. Currently pursuing an M.S. in Entertainment Business at Full Sail University."
   author = "Marco Morfin"
   dateFormat = "January 2, 2006"
   readingTime = true
   school = "Full Sail University"
-  program = "Masters Program"
+  program = "M.S. Entertainment Business"
 
 [author]
   name = "Marco Morfin"
@@ -23,15 +23,15 @@ enableEmoji = true
 
 [menu]
   [[menu.main]]
-    identifier = "journal"
-    name = "Journal"
-    url = "/posts/"
+    identifier = "work"
+    name = "Portfolio"
+    url = "/work/"
     weight = 1
 
   [[menu.main]]
-    identifier = "work"
-    name = "Work"
-    url = "/work/"
+    identifier = "journal"
+    name = "Masters Journal"
+    url = "/posts/"
     weight = 2
 
   [[menu.main]]

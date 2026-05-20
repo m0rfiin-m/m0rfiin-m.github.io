@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="container">
+    <div class="intro">
+        <span class="intro-label">Masters Journal &middot; {{ $.Site.Params.school }}</span>
+        <h1>Masters Journal</h1>
+        <p style="color: var(--text-dim); font-size: 0.95rem; max-width: 600px; margin-top: 0.5rem;">
+            A separate record of my academic experience in the M.S. Entertainment Business program at Full Sail University. These entries document coursework, reflections, and program milestones and are distinct from the professional portfolio.
+        </p>
+    </div>
+
+    <div class="posts-header">{{ len .Pages }} {{ if eq (len .Pages) 1 }}entry{{ else }}entries{{ end }}</div>
+    <div class="posts">
+        {{ range .Pages }}
+        <article class="post-item">
+            <span class="entry-label">Masters Journal</span>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+            <div class="meta">
+                <time>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
+                {{ if .Params.tags }}
+                <span class="tags">
+                    {{ range .Params.tags }}
+                    <span class="tag">#{{ . }}</span>
+                    {{ end }}
+                </span>
+                {{ end }}
+            </div>
+
+            {{ if .Summary }}
+            <p>{{ .Summary }}</p>
+            {{ end }}
+
+            <a href="{{ .Permalink }}" class="read-more">Read entry &rarr;</a>
+        </article>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
