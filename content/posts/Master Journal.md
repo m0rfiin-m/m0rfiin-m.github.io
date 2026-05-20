@@ -2,7 +2,6 @@
 title: "From Blueprint to Brand: Building Tempest eSports from a Class Assignment"
 date: 2026-05-02T00:00:00.000Z
 draft: false
-published: true
 tags: ["esports", "tempest esports", "brand strategy", "entertainment business", "full sail"]
 ---
 

@@ -2,7 +2,6 @@
 title: "Why I Came Back to School and What I Needed to Learn"
 date: 2026-03-28T00:00:00.000Z
 draft: false
-published: true
 tags: ["entertainment business", "personal brand", "career", "esports", "full sail"]
 ---
 

@@ -2,7 +2,6 @@
 title: "How I Use AI Tools to Work Faster Without Cutting Corners"
 date: 2026-05-16
 draft: false
-published: true
 tags: ["AI tools", "workflow", "productivity", "entertainment business", "strategy"]
 ---
 

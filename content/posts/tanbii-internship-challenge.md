@@ -2,7 +2,6 @@
 title: "How We Used a Community Competition to Find Talent and Drive Engagement at Tanbii"
 date: 2026-05-16
 draft: false
-published: true
 tags: ["community management", "discord", "gaming", "web3", "engagement strategy"]
 ---
 

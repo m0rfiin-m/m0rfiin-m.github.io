@@ -2,7 +2,6 @@
 title: "Why I'm Building Tempest eSports Around Community Instead of Franchises"
 date: 2026-05-16
 draft: false
-published: true
 tags: ["esports", "brand strategy", "community", "gaming", "entertainment business"]
 ---
 
