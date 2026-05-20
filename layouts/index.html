@@ -4,43 +4,29 @@
         <span class="intro-label">{{ .Site.Params.program }} &middot; {{ .Site.Params.school }}</span>
         <h1>Marco Morfin</h1>
         <p>{{ .Site.Params.description }}</p>
-        <div style="margin-top: 1.5rem; display: flex; gap: 1rem;">
-            <a href="{{ .Site.BaseURL }}work/" style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); border: 1px solid var(--accent); padding: 0.4rem 1rem; text-decoration: none;">View Portfolio &rarr;</a>
-            <a href="{{ .Site.BaseURL }}resume/" style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-dim); border: 1px solid var(--border); padding: 0.4rem 1rem; text-decoration: none;">Resume</a>
+        <div style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="{{ .Site.BaseURL }}work/" style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); border: 1px solid var(--accent); padding: 0.5rem 1.25rem; text-decoration: none; transition: all 0.2s;">View Portfolio &rarr;</a>
+            <a href="{{ .Site.BaseURL }}resume/" style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-dim); border: 1px solid var(--border); padding: 0.5rem 1.25rem; text-decoration: none; transition: all 0.2s;">Resume</a>
+            <a href="{{ .Site.BaseURL }}about/" style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-dim); border: 1px solid var(--border); padding: 0.5rem 1.25rem; text-decoration: none; transition: all 0.2s;">About</a>
         </div>
     </div>
 
-    {{ $posts := first 3 (where .Site.RegularPages "Type" "posts") }}
-    {{ if $posts }}
-    <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border);">
-        <div style="font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim); margin-bottom: 1.5rem;">Masters Journal</div>
-        <div class="posts">
-            {{ range $posts }}
-            <article class="post-item">
-                <span class="entry-label">Masters Journal</span>
-                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-
-                <div class="meta">
-                    <time>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
-                    {{ if .Params.tags }}
-                    <span class="tags">
-                        {{ range .Params.tags }}
-                        <span class="tag">#{{ . }}</span>
-                        {{ end }}
-                    </span>
-                    {{ end }}
-                </div>
-
-                {{ if .Summary }}
-                <p>{{ .Summary }}</p>
-                {{ end }}
-
-                <a href="{{ .Permalink }}" class="read-more">Read entry &rarr;</a>
-            </article>
-            {{ end }}
+    <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem;">
+        <div>
+            <div style="font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Portfolio</div>
+            <p style="font-size: 0.9rem; color: var(--text-dim); line-height: 1.6;">Project work, brand strategy, and case studies from professional roles and the M.S. program.</p>
+            <a href="{{ .Site.BaseURL }}work/" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); text-decoration: none;">View projects &rarr;</a>
         </div>
-        <a href="{{ .Site.BaseURL }}posts/" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.06em;">All journal entries &rarr;</a>
+        <div>
+            <div style="font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Resume</div>
+            <p style="font-size: 0.9rem; color: var(--text-dim); line-height: 1.6;">Full work history spanning community management, esports operations, and customer service.</p>
+            <a href="{{ .Site.BaseURL }}resume/" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); text-decoration: none;">View resume &rarr;</a>
+        </div>
+        <div>
+            <div style="font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Masters Journal</div>
+            <p style="font-size: 0.9rem; color: var(--text-dim); line-height: 1.6;">Academic reflections and program milestones from the M.S. in Entertainment Business at Full Sail.</p>
+            <a href="{{ .Site.BaseURL }}posts/" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); text-decoration: none;">Read entries &rarr;</a>
+        </div>
     </div>
-    {{ end }}
 </div>
 {{ end }}
