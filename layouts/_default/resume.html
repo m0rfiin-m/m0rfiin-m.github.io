@@ -1,117 +1,124 @@
 {{ define "main" }}
 <div class="container">
     <div class="resume">
-
         <div class="resume-header">
             <h1>Marco Morfin</h1>
-            <p class="resume-title">Entertainment Business &middot; Community & Operations</p>
+            <p class="resume-title">
+                Entertainment Business &middot; Community & Operations
+            </p>
             <div class="resume-contact">
                 <a href="mailto:m.m0rfiin@gmail.com">m.m0rfiin@gmail.com</a>
                 <span>&middot;</span>
                 <a href="{{ .Site.BaseURL }}">Portfolio</a>
                 <span>&middot;</span>
-                <a href="https://www.linkedin.com/in/marco-morfin/" target="_blank">LinkedIn</a>
+                <a
+                    href="https://www.linkedin.com/in/marco-morfin/"
+                    target="_blank"
+                    >LinkedIn</a
+                >
             </div>
             <div class="resume-download">
-                <a href="{{ .Site.BaseURL }}resume/MorfinM_Resume.pdf" class="download-btn" download>Download PDF</a>
+                <a
+                    href="{{ .Site.BaseURL }}resume/Marco-Morfin-Resume.pdf"
+                    class="download-btn"
+                    download
+                    >Download PDF</a
+                >
             </div>
         </div>
 
-        <div class="content resume-content">
-            {{ .Content }}
-        </div>
-
+        <div class="content resume-content">{{ .Content }}</div>
     </div>
 </div>
 
 <style>
-.resume {
-    padding: 3rem 0;
-}
-.resume-header {
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
-}
-.resume-header h1 {
-    margin-top: 0;
-    font-size: 2.8rem;
-    letter-spacing: -0.03em;
-}
-.resume-title {
-    color: var(--accent);
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    margin-bottom: 0.75rem;
-}
-.resume-contact {
-    display: flex;
-    gap: 0.75rem;
-    align-items: center;
-    font-size: 0.9rem;
-    color: var(--text-dim);
-    margin-bottom: 1.5rem;
-}
-.resume-contact a {
-    color: var(--text-dim);
-}
-.resume-contact a:hover {
-    color: var(--accent);
-}
-.download-btn {
-    display: inline-block;
-    padding: 0.5rem 1.25rem;
-    border: 1px solid var(--accent);
-    color: var(--accent) !important;
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    transition: all 0.2s;
-}
-.download-btn:hover {
-    background: var(--accent);
-    color: #fff !important;
-    opacity: 1 !important;
-}
-.resume-content h2 {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--accent);
-    font-family: var(--font-mono);
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--border);
-}
-.resume-content h3 {
-    font-size: 1.1rem;
-    margin-top: 1.25rem;
-    margin-bottom: 0.2rem;
-    color: var(--text);
-}
-.resume-content h4 {
-    font-size: 0.8rem;
-    color: var(--text-dim);
-    font-weight: 400;
-    font-family: var(--font-mono);
-    margin-top: 0;
-    margin-bottom: 0.75rem;
-}
-.resume-content ul {
-    margin-left: 1.25rem;
-    margin-bottom: 1rem;
-}
-.resume-content li {
-    margin-bottom: 0.3rem;
-    font-size: 0.95rem;
-}
-.resume-content p {
-    font-size: 0.95rem;
-    margin-bottom: 0.75rem;
-}
+    .resume {
+        padding: 3rem 0;
+    }
+    .resume-header {
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+    .resume-header h1 {
+        margin-top: 0;
+        font-size: 2.8rem;
+        letter-spacing: -0.03em;
+    }
+    .resume-title {
+        color: var(--accent);
+        font-family: var(--font-mono);
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: 0.75rem;
+    }
+    .resume-contact {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+        font-size: 0.9rem;
+        color: var(--text-dim);
+        margin-bottom: 1.5rem;
+    }
+    .resume-contact a {
+        color: var(--text-dim);
+    }
+    .resume-contact a:hover {
+        color: var(--accent);
+    }
+    .download-btn {
+        display: inline-block;
+        padding: 0.5rem 1.25rem;
+        border: 1px solid var(--accent);
+        color: var(--accent) !important;
+        font-family: var(--font-mono);
+        font-size: 0.75rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        transition: all 0.2s;
+    }
+    .download-btn:hover {
+        background: var(--accent);
+        color: #fff !important;
+        opacity: 1 !important;
+    }
+    .resume-content h2 {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--accent);
+        font-family: var(--font-mono);
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid var(--border);
+    }
+    .resume-content h3 {
+        font-size: 1.1rem;
+        margin-top: 1.25rem;
+        margin-bottom: 0.2rem;
+        color: var(--text);
+    }
+    .resume-content h4 {
+        font-size: 0.8rem;
+        color: var(--text-dim);
+        font-weight: 400;
+        font-family: var(--font-mono);
+        margin-top: 0;
+        margin-bottom: 0.75rem;
+    }
+    .resume-content ul {
+        margin-left: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    .resume-content li {
+        margin-bottom: 0.3rem;
+        font-size: 0.95rem;
+    }
+    .resume-content p {
+        font-size: 0.95rem;
+        margin-bottom: 0.75rem;
+    }
 </style>
 {{ end }}
