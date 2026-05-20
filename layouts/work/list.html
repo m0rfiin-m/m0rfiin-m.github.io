@@ -1,35 +1,34 @@
 {{ define "main" }}
 <div class="container">
-    <div class="intro">
-        <span class="intro-label">Portfolio &middot; {{ $.Site.Params.school }}</span>
+    <section class="hero" style="padding-bottom: 3rem; margin-bottom: 3rem;">
+        <span class="hero-label">Portfolio &middot; {{ $.Site.Params.school }}</span>
         <h1>Work</h1>
-        <p>Projects, roles, and experience from my time in the entertainment business.</p>
+        <p class="hero-bio">Projects, roles, and experience from community management, esports strategy, and entertainment business operations.</p>
+    </section>
+
+    <div class="section-header">
+        <span class="section-title">{{ len .Pages }} {{ if eq (len .Pages) 1 }}project{{ else }}projects{{ end }}</span>
     </div>
 
-    <div class="posts-header">{{ len .Pages }} {{ if eq (len .Pages) 1 }}project{{ else }}projects{{ end }}</div>
-    <div class="posts">
+    <div class="project-grid">
         {{ range .Pages }}
-        <article class="post-item">
-            <span class="entry-label">{{ with .Params.category }}{{ . }}{{ else }}Project{{ end }}</span>
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-
-            <div class="meta">
-                {{ with .Params.role }}<span>{{ . }}</span>{{ end }}
-                {{ with .Params.period }}<span>&middot; {{ . }}</span>{{ end }}
-                {{ if .Params.tags }}
-                <span class="tags">
-                    {{ range .Params.tags }}
-                    <span class="tag">#{{ . }}</span>
-                    {{ end }}
-                </span>
+        <article class="project-card">
+            <span class="project-card-label">{{ with .Params.category }}{{ . }}{{ else }}Project{{ end }}</span>
+            <h3><a href="{{ .Permalink }}" style="color: var(--text); text-decoration: none;">{{ .Title }}</a></h3>
+            <p class="project-card-meta">
+                {{ with .Params.role }}{{ . }}{{ end }}{{ with .Params.period }} &middot; {{ . }}{{ end }}
+            </p>
+            {{ if .Summary }}
+            <p style="font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; flex: 1;">{{ .Summary }}</p>
+            {{ end }}
+            {{ if .Params.tags }}
+            <div class="tags" style="margin-top: 0.75rem; margin-bottom: 0;">
+                {{ range .Params.tags }}
+                <span class="tag">#{{ . }}</span>
                 {{ end }}
             </div>
-
-            {{ if .Summary }}
-            <p>{{ .Summary }}</p>
             {{ end }}
-
-            <a href="{{ .Permalink }}" class="read-more">View project &rarr;</a>
+            <a href="{{ .Permalink }}" style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 1.25rem; display: inline-block;">View project &rarr;</a>
         </article>
         {{ end }}
     </div>

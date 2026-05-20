@@ -1,32 +1,65 @@
 {{ define "main" }}
 <div class="container">
-    <div class="intro">
-        <span class="intro-label">{{ .Site.Params.program }} &middot; {{ .Site.Params.school }}</span>
+    <section class="hero">
+        <span class="hero-label">{{ .Site.Params.program }} &middot; {{ .Site.Params.school }}</span>
         <h1>Marco Morfin</h1>
-        <p>{{ .Site.Params.description }}</p>
-        <div style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-            <a href="{{ .Site.BaseURL }}work/" style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); border: 1px solid var(--accent); padding: 0.5rem 1.25rem; text-decoration: none; transition: all 0.2s;">View Portfolio &rarr;</a>
-            <a href="{{ .Site.BaseURL }}resume/" style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-dim); border: 1px solid var(--border); padding: 0.5rem 1.25rem; text-decoration: none; transition: all 0.2s;">Resume</a>
-            <a href="{{ .Site.BaseURL }}about/" style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-dim); border: 1px solid var(--border); padding: 0.5rem 1.25rem; text-decoration: none; transition: all 0.2s;">About</a>
-        </div>
-    </div>
+        <p class="hero-role">Community Manager &middot; Esports Strategist &middot; Digital Operations</p>
+        <p class="hero-bio">Entertainment business professional with experience managing live-service gaming communities, building brand strategy from scratch, and translating audience data into decisions that actually move numbers.</p>
 
-    <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem;">
-        <div>
-            <div style="font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Portfolio</div>
-            <p style="font-size: 0.9rem; color: var(--text-dim); line-height: 1.6;">Project work, brand strategy, and case studies from professional roles and the M.S. program.</p>
-            <a href="{{ .Site.BaseURL }}work/" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); text-decoration: none;">View projects &rarr;</a>
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-value">15,921</span>
+                <span class="stat-label">Discord Members Managed</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value">35%</span>
+                <span class="stat-label">Engagement Growth</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value">$162K</span>
+                <span class="stat-label">Projected Year 1 Revenue</span>
+            </div>
         </div>
-        <div>
-            <div style="font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Resume</div>
-            <p style="font-size: 0.9rem; color: var(--text-dim); line-height: 1.6;">Full work history spanning community management, esports operations, and customer service.</p>
-            <a href="{{ .Site.BaseURL }}resume/" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); text-decoration: none;">View resume &rarr;</a>
+
+        <div class="hero-ctas">
+            <a href="{{ .Site.BaseURL }}work/" class="btn-primary">View Portfolio &rarr;</a>
+            <a href="{{ .Site.BaseURL }}resume/" class="btn-secondary">Resume</a>
+            <a href="{{ .Site.BaseURL }}about/" class="btn-secondary">About</a>
         </div>
-        <div>
-            <div style="font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem;">Masters Journal</div>
-            <p style="font-size: 0.9rem; color: var(--text-dim); line-height: 1.6;">Academic reflections and program milestones from the M.S. in Entertainment Business at Full Sail.</p>
-            <a href="{{ .Site.BaseURL }}posts/" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); text-decoration: none;">Read entries &rarr;</a>
+    </section>
+
+    <section>
+        <div class="section-header">
+            <span class="section-title">Featured Work</span>
+            <a href="{{ .Site.BaseURL }}work/" class="section-link">All projects &rarr;</a>
         </div>
-    </div>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <span class="project-card-label">Community Management</span>
+                <h3>Tanbii Discord</h3>
+                <p class="project-card-meta">Discord &amp; Community Manager &middot; Jan 2024 – Jun 2025</p>
+                <p style="font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; flex: 1;">Managed a 15,921-member Discord server for a Web3 gaming platform. Built moderation systems, ran structured engagement campaigns, and grew daily active users by 30%.</p>
+                <a href="{{ .Site.BaseURL }}work/tanbii-discord/" style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 1.25rem; display: inline-block;">View project &rarr;</a>
+            </div>
+
+            <div class="project-card">
+                <span class="project-card-label">Brand Strategy</span>
+                <h3>Tempest eSports</h3>
+                <p class="project-card-meta">Founder &amp; Strategist &middot; 2025 – Present</p>
+                <p style="font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; flex: 1;">Full esports brand concept built from competitive analysis and market research. FPS-focused, community-led model with $162K projected Year 1 revenue and a clear path to sponsorship.</p>
+                <a href="{{ .Site.BaseURL }}work/tempest-esports/" style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 1.25rem; display: inline-block;">View project &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <section style="margin-top: 4rem;">
+        <div class="section-header">
+            <span class="section-title">Masters Journal</span>
+            <a href="{{ .Site.BaseURL }}posts/" class="section-link">All entries &rarr;</a>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; max-width: 560px;">Academic reflections and program milestones from the M.S. in Entertainment Business at Full Sail University. Separate from the professional portfolio.</p>
+        <a href="{{ .Site.BaseURL }}posts/" class="btn-secondary" style="margin-top: 1.25rem; display: inline-block;">Browse journal &rarr;</a>
+    </section>
 </div>
 {{ end }}
