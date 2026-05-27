@@ -1,23 +1,26 @@
 {{ define "main" }}
 <div class="container">
-    <div class="resume">
+    <div class="resume-page">
         <div class="resume-header">
-            <h1>Marco Morfin</h1>
-            <p class="resume-title">
-                Entertainment Business &middot; Community Management &middot; Esports Operations
-            </p>
-            <div class="resume-contact">
-                <span>Los Angeles, CA</span>
-                <span>&middot;</span>
-                <span>(909) 441-6903</span>
-                <span>&middot;</span>
-                <a href="mailto:m.m0rfiin@gmail.com">m.m0rfiin@gmail.com</a>
-                <span>&middot;</span>
-                <a href="https://www.linkedin.com/in/marco-morfin/" target="_blank">LinkedIn</a>
-                <span>&middot;</span>
-                <a href="{{ "/" | relURL }}">Portfolio</a>
+            <div class="resume-header-main">
+                <h1>Marco Morfin</h1>
+                <p class="resume-role">
+                    Community Management &middot; Esports Strategy &middot; Entertainment Business
+                </p>
+                <div class="resume-contact">
+                    <span>Los Angeles, CA</span>
+                    <span>&middot;</span>
+                    <span>(909) 441-6903</span>
+                    <span>&middot;</span>
+                    <a href="mailto:m.m0rfiin@gmail.com">m.m0rfiin@gmail.com</a>
+                    <span>&middot;</span>
+                    <a href="https://www.linkedin.com/in/marco-morfin/" target="_blank">LinkedIn</a>
+                    <span>&middot;</span>
+                    <a href="{{ "/" | relURL }}">Portfolio</a>
+                </div>
             </div>
-            <div class="resume-download">
+
+            <div class="resume-header-actions">
                 <a
                     href="{{ "resume/Marco-Morfin-Resume.pdf" | relURL }}"
                     class="download-btn"
@@ -27,133 +30,398 @@
             </div>
         </div>
 
-        <div class="content resume-content">{{ .Content }}</div>
+        <article class="resume-content">
+            <div class="resume-layout">
+                <aside class="resume-sidebar">
+                    <section class="resume-section">
+                        <h2 class="resume-section-title">Education</h2>
+                        <div class="resume-sidebar-group">
+                            <p class="resume-sidebar-copy strong">Full Sail University</p>
+                            <p class="resume-sidebar-copy">M.S. Entertainment Business</p>
+                            <p class="resume-sidebar-copy">Sep 2025 – Expected 2027</p>
+                        </div>
+                        <div class="resume-sidebar-group">
+                            <p class="resume-sidebar-copy strong">Harrisburg University</p>
+                            <p class="resume-sidebar-copy">B.S. Esports Management, Production &amp; Performance</p>
+                            <p class="resume-sidebar-copy">Aug 2022 – Aug 2025</p>
+                        </div>
+                    </section>
+
+                    <section class="resume-section">
+                        <h2 class="resume-section-title">Skills</h2>
+                        <div class="resume-sidebar-group">
+                            <p class="resume-sidebar-label">Community</p>
+                            <ul class="resume-inline-list">
+                                <li>Community Management</li>
+                                <li>Discord Operations</li>
+                                <li>Fan Engagement</li>
+                                <li>Community Events</li>
+                                <li>Moderation Systems</li>
+                            </ul>
+                        </div>
+                        <div class="resume-sidebar-group">
+                            <p class="resume-sidebar-label">Content &amp; Marketing</p>
+                            <ul class="resume-inline-list">
+                                <li>Content Strategy</li>
+                                <li>Content Writing</li>
+                                <li>Social Media Marketing</li>
+                                <li>Growth Marketing</li>
+                                <li>SEO</li>
+                            </ul>
+                        </div>
+                        <div class="resume-sidebar-group">
+                            <p class="resume-sidebar-label">Operations</p>
+                            <ul class="resume-inline-list">
+                                <li>Tournament Operations</li>
+                                <li>Sponsorship Development</li>
+                                <li>Workflow Coordination</li>
+                                <li>Project Management</li>
+                                <li>Customer Service</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="resume-section">
+                        <h2 class="resume-section-title">Tools</h2>
+                        <ul class="resume-sidebar-list">
+                            <li>Discord · Slack · Notion</li>
+                            <li>Hootsuite · Zoho Social · Later</li>
+                            <li>Canva · HubSpot · Microsoft 365</li>
+                            <li>Google Workspace · Figma</li>
+                            <li>MEE6 · Dyno · OBS · Zoom</li>
+                        </ul>
+                    </section>
+
+                    <section class="resume-section">
+                        <h2 class="resume-section-title">Certifications</h2>
+                        <ul class="resume-sidebar-list">
+                            <li>LinkedIn Marketing Labs Certification</li>
+                            <li>HubSpot Social Media Marketing Certification</li>
+                            <li>Digital Marketing Foundations</li>
+                            <li>Content Marketing Foundations</li>
+                            <li>Agile Requirements Foundations</li>
+                            <li>Figma Essential Training</li>
+                        </ul>
+                    </section>
+
+                    <section class="resume-section">
+                        <h2 class="resume-section-title">Languages</h2>
+                        <ul class="resume-sidebar-list">
+                            <li>English (Native)</li>
+                            <li>Spanish (Bilingual)</li>
+                        </ul>
+                    </section>
+                </aside>
+
+                <div class="resume-main">
+                    <section class="resume-section">
+                        <h2 class="resume-section-title">Professional Summary</h2>
+                        <p class="resume-summary">
+                            Entertainment business professional with 8+ years of experience across community management, esports operations, customer service, and technical support. Managed a 15,921-member Discord community, increased engagement by 35%, and developed sponsorship and operations materials for a sports marketing agency's esports division.
+                        </p>
+                    </section>
+
+                    <section class="resume-section">
+                        <h2 class="resume-section-title">Experience</h2>
+
+                        <div class="resume-entry">
+                            <h3>Esports League Development Volunteer</h3>
+                            <p class="resume-entry-meta">Sports Media Inc. · Los Angeles, CA (Remote) · June 2025 – May 2026</p>
+                            <ul>
+                                <li>Developed sponsorship proposals and supporting documentation for the esports division of a sports marketing agency with 780+ venue partnerships.</li>
+                                <li>Collaborated with legal and content teams to align partnership materials with brand standards and internal review requirements.</li>
+                                <li>Organized tournament operations, including scheduling, registration tracking, and ruleset documentation for competitive gaming programs.</li>
+                                <li>Managed shared workflows and cross-department communication using Google Drive, Slack, and AI-assisted productivity tools.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-entry">
+                            <h3>Discord &amp; Community Manager</h3>
+                            <p class="resume-entry-meta">Tanbii · Los Angeles, CA (Remote) · February 2025 – June 2025</p>
+                            <ul>
+                                <li>Managed and grew a Discord community of 15,921 members, increasing engagement by 35% through events, contests, and Q&amp;A campaigns.</li>
+                                <li>Designed and launched the Tanbii Internship Challenge, a four-category competition that added 532 members over six months.</li>
+                                <li>Maintained a cross-platform content calendar across Instagram, TikTok, Facebook, and X in coordination with marketing initiatives.</li>
+                                <li>Built moderation workflows and automation systems with MEE6 and Dyno to support community health at scale.</li>
+                                <li>Reported audience feedback and behavior trends to product and marketing stakeholders to inform decisions.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-entry">
+                            <h3>Customer Service Representative II</h3>
+                            <p class="resume-entry-meta">Optum / UnitedHealth Group · Remote · February 2023 – September 2024</p>
+                            <ul>
+                                <li>Handled 50+ inbound calls daily, authorizing treatment for mental health and substance abuse cases across multiple levels of care.</li>
+                                <li>Managed an active member caseload, ensuring care met medical necessity guidelines and connecting members with crisis and support resources.</li>
+                                <li>Resolved escalated issues across multiple systems, including iSETT, CDB, and LINX, in partnership with clinical and support teams.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-entry">
+                            <h3>Sr. Benefit Audit Agent / Sr. Customer Service Representative</h3>
+                            <p class="resume-entry-meta">Aerotek (Contract for Maximus) · Remote / Fontana, CA · January 2022 – January 2023</p>
+                            <ul>
+                                <li>Reviewed unemployment insurance claims against policy and UI code requirements to identify discrepancies across a high-volume caseload.</li>
+                                <li>Resolved complex wage and benefit cross-matching issues while coordinating with subject matter experts on escalations.</li>
+                                <li>Trained and mentored junior team members on audit workflows, documentation quality, and case handling practices.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-entry">
+                            <h3>Overnight Family Liaison &amp; Logistics Specialist</h3>
+                            <p class="resume-entry-meta">Team Hope (Cherokee Federal / HHS Emergency Intake Site) · Pomona, CA · May 2021 – November 2021</p>
+                            <ul>
+                                <li>Supported secure family communication for unaccompanied youth while maintaining privacy expectations and HHS compliance.</li>
+                                <li>Coordinated overnight distribution of emergency supplies, helping ensure children received required clothing, bedding, and care items.</li>
+                                <li>Provided calm, trauma-informed support during overnight operations in a high-pressure humanitarian response environment.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-entry">
+                            <h3>Patient Service Representative</h3>
+                            <p class="resume-entry-meta">Kaiser Permanente · Fontana, CA · January 2021 – September 2021</p>
+                            <ul>
+                                <li>Verified patient information, processed payments, and assisted with history, consent, and account inquiries in a high-traffic medical setting.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-entry">
+                            <h3>Call Center Representative</h3>
+                            <p class="resume-entry-meta">American Security Products (AMSEC) · Fontana, CA · May 2019 – October 2020</p>
+                            <ul>
+                                <li>Diagnosed mechanical and electronic lock issues through inbound support calls and coordinated locksmith scheduling.</li>
+                                <li>Logged service activity in SafeManager and trained new hires on customer service procedures and documentation practices.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-entry">
+                            <h3>Network Technician</h3>
+                            <p class="resume-entry-meta">Charter Communications · Ontario, CA · February 2018 – April 2019</p>
+                            <ul>
+                                <li>Restored business and residential network service by troubleshooting LAN issues, hardware failures, and software configuration problems.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-entry">
+                            <h3>Call Center Representative</h3>
+                            <p class="resume-entry-meta">Wells Fargo · San Bernardino, CA · August 2016 – January 2018</p>
+                            <ul>
+                                <li>Assisted customers with account, billing, and service questions while de-escalating concerns and supporting new-hire training.</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="resume-section">
+                        <h2 class="resume-section-title">Projects</h2>
+                        <div class="resume-entry">
+                            <h3>Tempest eSports — Brand Strategy</h3>
+                            <p class="resume-entry-meta">Full Sail University · 2025 – Present</p>
+                            <ul>
+                                <li>Built a digital marketing strategy for an FPS-focused esports organization targeting Call of Duty, Valorant, Apex Legends, and Counter-Strike audiences.</li>
+                                <li>Conducted competitive analysis of 100 Thieves, FaZe Clan, and Team Liquid and translated findings into positioning and content recommendations.</li>
+                                <li>Designed a $15,000 Year 1 campaign budget with projected $162,000 revenue and KPI targets for growth and traffic.</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </article>
     </div>
 </div>
 
 <style>
-    .resume {
-        max-width: 780px;
+    .resume-page {
+        max-width: 960px;
         margin: 0 auto;
-        padding: 2.75rem 2rem 3.5rem;
-        background: #fcfcfb;
+        padding: 2.4rem 2rem 3rem;
+        background: #fbfbfa;
         border: 1px solid #d7dce2;
-        color: #22262c;
+        box-shadow: 0 18px 46px rgba(0, 0, 0, 0.14);
+        color: #1f252c;
     }
     .resume-header {
-        border-bottom: 1px solid #d4d9df;
-        padding-bottom: 1.85rem;
-        margin-bottom: 2.15rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 1.5rem;
+        align-items: flex-start;
+        padding-bottom: 1.8rem;
+        border-bottom: 1px solid #d7dce2;
+        margin-bottom: 1.8rem;
     }
     .resume-header h1 {
-        margin-top: 0;
-        margin-bottom: 0.45rem;
-        font-size: 2.85rem;
-        letter-spacing: -0.04em;
-        color: #161a1f;
+        margin: 0 0 0.35rem;
+        font-size: 3rem;
+        line-height: 0.95;
+        letter-spacing: -0.045em;
+        color: #161b21;
     }
-    .resume-title {
-        color: #5f6975;
-        font-family: var(--font-mono);
-        font-size: 0.78rem;
+    .resume-role {
+        margin: 0 0 0.9rem;
+        color: #5d6773;
+        font-size: 0.8rem;
+        letter-spacing: 0.1em;
         text-transform: uppercase;
-        letter-spacing: 0.09em;
-        margin-bottom: 0.9rem;
+        font-family: var(--font-mono);
     }
     .resume-contact {
         display: flex;
         flex-wrap: wrap;
         gap: 0.55rem;
-        align-items: center;
-        font-size: 0.92rem;
+        font-size: 0.9rem;
         color: #616b76;
-        margin-bottom: 1.35rem;
     }
     .resume-contact a {
-        color: #4f5964;
+        color: #4d5762;
     }
     .resume-contact a:hover {
-        color: #1d232a;
+        color: #11161c;
         opacity: 1;
     }
-    .resume-download {
-        margin-top: 0.2rem;
+    .resume-header-actions {
+        min-width: 132px;
+        display: flex;
+        justify-content: flex-end;
     }
     .download-btn {
         display: inline-block;
-        padding: 0.55rem 1.15rem;
-        border: 1px solid #c2c8cf;
-        background: #f8f9fb;
-        color: #23272d !important;
+        padding: 0.65rem 1rem;
+        border: 1px solid #c4cbd3;
+        background: #f4f6f8;
+        color: #1f252c !important;
         font-family: var(--font-mono);
         font-size: 0.74rem;
-        letter-spacing: 0.06em;
         text-transform: uppercase;
-        transition: background 0.2s, border-color 0.2s, color 0.2s;
+        letter-spacing: 0.06em;
+        transition: background 0.2s, border-color 0.2s;
     }
     .download-btn:hover {
-        background: #eceff2;
-        border-color: #969ea8;
-        color: #13181d !important;
+        background: #e7ebef;
+        border-color: #a6afba;
         opacity: 1 !important;
     }
-    .resume-content h2 {
-        font-size: 0.75rem;
-        text-transform: uppercase;
+    .resume-layout {
+        display: grid;
+        grid-template-columns: minmax(220px, 0.9fr) minmax(0, 2.1fr);
+        gap: 2rem;
+        align-items: start;
+    }
+    .resume-sidebar {
+        padding-right: 1.6rem;
+        border-right: 1px solid #dfe3e8;
+    }
+    .resume-main {
+        min-width: 0;
+    }
+    .resume-section {
+        margin-bottom: 1.9rem;
+    }
+    .resume-section:last-child {
+        margin-bottom: 0;
+    }
+    .resume-section-title {
+        margin: 0 0 0.8rem;
+        padding-bottom: 0.45rem;
+        border-bottom: 1px solid #d7dce2;
+        font-family: var(--font-mono);
+        font-size: 0.73rem;
         letter-spacing: 0.12em;
-        color: #4f5964;
-        font-family: var(--font-mono);
-        margin-top: 2.45rem;
-        margin-bottom: 1rem;
-        padding-bottom: 0.55rem;
-        border-bottom: 1px solid #d4d9df;
+        text-transform: uppercase;
+        color: #56616c !important;
     }
-    .resume-content h3 {
-        font-size: 1.09rem;
-        margin-top: 1.4rem;
-        margin-bottom: 0.2rem;
+    .resume-summary {
+        margin: 0;
+        font-size: 0.98rem;
+        line-height: 1.72;
+        color: #27303a;
+    }
+    .resume-entry {
+        margin-bottom: 1.3rem;
+    }
+    .resume-entry:last-child {
+        margin-bottom: 0;
+    }
+    .resume-entry h3 {
+        margin: 0 0 0.18rem;
+        font-size: 1.12rem;
+        line-height: 1.28;
         color: #171c22;
     }
-    .resume-content h4 {
-        font-size: 0.84rem;
+    .resume-entry-meta {
+        margin: 0 0 0.65rem;
+        font-size: 0.83rem;
+        line-height: 1.45;
         color: #707983;
-        font-weight: 400;
         font-family: var(--font-mono);
-        margin-top: 0;
-        margin-bottom: 0.8rem;
     }
-    .resume-content ul {
-        margin-left: 1.2rem;
-        margin-bottom: 1.15rem;
+    .resume-entry ul,
+    .resume-sidebar-list,
+    .resume-inline-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
     }
-    .resume-content li {
+    .resume-entry ul li {
+        position: relative;
         margin-bottom: 0.45rem;
-        font-size: 0.96rem;
-        line-height: 1.72;
-        color: #2d333a;
+        padding-left: 1rem;
+        font-size: 0.95rem;
+        line-height: 1.66;
+        color: #28313a;
     }
-    .resume-content p {
-        font-size: 0.97rem;
-        line-height: 1.72;
-        margin-bottom: 0.95rem;
-        color: #2d333a;
+    .resume-entry ul li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #697480;
     }
-    .resume-content strong {
+    .resume-sidebar-group {
+        margin-bottom: 1.1rem;
+    }
+    .resume-sidebar-group:last-child {
+        margin-bottom: 0;
+    }
+    .resume-sidebar-label {
+        margin: 0 0 0.35rem;
+        font-size: 0.72rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #697480;
+        font-family: var(--font-mono);
+    }
+    .resume-sidebar-copy,
+    .resume-inline-list li,
+    .resume-sidebar-list li {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        color: #29323b;
+    }
+    .resume-inline-list li {
+        margin-bottom: 0.5rem;
+    }
+    .resume-sidebar-copy.strong {
+        font-weight: 600;
         color: #171c22;
     }
-    @media (max-width: 760px) {
-        .resume {
-            padding: 2rem 1.1rem 2.75rem;
+    @media (max-width: 860px) {
+        .resume-page {
+            padding: 1.65rem 1.15rem 2.25rem;
         }
-        .resume-header h1 {
-            font-size: 2.35rem;
+        .resume-header {
+            flex-direction: column;
         }
-        .resume-contact {
-            gap: 0.35rem;
-            font-size: 0.88rem;
+        .resume-header-actions {
+            justify-content: flex-start;
         }
-        .resume-contact span:nth-child(even) {
-            display: none;
+        .resume-layout {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+        .resume-sidebar {
+            order: 2;
+            padding-right: 0;
+            border-right: none;
+            border-top: 1px solid #dfe3e8;
+            padding-top: 1.5rem;
         }
     }
 </style>

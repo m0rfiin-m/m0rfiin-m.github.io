@@ -9,6 +9,11 @@ theme = 'morfiin-minimal'
 enableRobotsTXT = true
 enableEmoji = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   description = "Entertainment business professional specializing in community management, esports strategy, and digital operations. Currently pursuing an M.S. in Entertainment Business at Full Sail University."
   author = "Marco Morfin"
