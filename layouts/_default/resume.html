@@ -1,124 +1,160 @@
 {{ define "main" }}
-<div class="container">
-    <div class="resume">
+<div class="resume-shell">
+    <div class="resume-paper">
         <div class="resume-header">
-            <h1>Marco Morfin</h1>
-            <p class="resume-title">
-                Entertainment Business &middot; Community & Operations
-            </p>
-            <div class="resume-contact">
-                <a href="mailto:m.m0rfiin@gmail.com">m.m0rfiin@gmail.com</a>
-                <span>&middot;</span>
-                <a href="{{ .Site.BaseURL }}">Portfolio</a>
-                <span>&middot;</span>
-                <a
-                    href="https://www.linkedin.com/in/marco-morfin/"
-                    target="_blank"
-                    >LinkedIn</a
-                >
+            <div class="resume-identity">
+                <h1>Marco Morfin</h1>
+                <p class="resume-tagline">
+                    Entertainment Business · Community Management · Esports Operations
+                </p>
             </div>
-            <div class="resume-download">
-                <a
-                    href="{{ .Site.BaseURL }}resume/Marco-Morfin-Resume.pdf"
-                    class="download-btn"
-                    download
-                    >Download PDF</a
-                >
+
+            <div class="resume-meta">
+                <p>Los Angeles, CA</p>
+                <p>(909) 441-6903</p>
+                <p><a href="mailto:m.m0rfiin@gmail.com">m.m0rfiin@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/marco-morfin/" target="_blank">linkedin.com/in/marco-morfin</a></p>
+                <p><a href="{{ "/" | relURL }}">m0rfiin-m.github.io</a></p>
             </div>
         </div>
 
-        <div class="content resume-content">{{ .Content }}</div>
+        <div class="resume-actions">
+            <a
+                href="{{ "resume/Marco-Morfin-Resume.pdf" | relURL }}"
+                class="download-btn"
+                download
+                >Download PDF</a
+            >
+        </div>
+
+        <article class="resume-content">{{ .Content }}</article>
     </div>
 </div>
 
 <style>
-    .resume {
-        padding: 3rem 0;
+    .resume-shell {
+        padding: clamp(1.5rem, 4vw, 3rem) 0 4rem;
+    }
+    .resume-paper {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: clamp(1.5rem, 4vw, 3.25rem);
+        background: #fffdf8;
+        color: #1d232b;
+        border: 1px solid rgba(18, 28, 38, 0.12);
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
     }
     .resume-header {
-        border-bottom: 1px solid var(--border);
-        padding-bottom: 2rem;
-        margin-bottom: 2rem;
-    }
-    .resume-header h1 {
-        margin-top: 0;
-        font-size: 2.8rem;
-        letter-spacing: -0.03em;
-    }
-    .resume-title {
-        color: var(--accent);
-        font-family: var(--font-mono);
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        margin-bottom: 0.75rem;
-    }
-    .resume-contact {
         display: flex;
-        gap: 0.75rem;
-        align-items: center;
-        font-size: 0.9rem;
-        color: var(--text-dim);
-        margin-bottom: 1.5rem;
+        justify-content: space-between;
+        gap: 2rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 2px solid #d9dde3;
     }
-    .resume-contact a {
-        color: var(--text-dim);
+    .resume-identity h1 {
+        margin: 0;
+        font-size: clamp(2.4rem, 5vw, 4rem);
+        line-height: 0.95;
+        letter-spacing: -0.04em;
+        color: #11161c;
     }
-    .resume-contact a:hover {
-        color: var(--accent);
+    .resume-tagline {
+        margin: 0.75rem 0 0;
+        font-size: 0.95rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #51606f;
+    }
+    .resume-meta {
+        min-width: 240px;
+        text-align: right;
+        font-size: 0.95rem;
+    }
+    .resume-meta p {
+        margin: 0 0 0.35rem;
+    }
+    .resume-meta a {
+        color: #1d232b;
+    }
+    .resume-actions {
+        display: flex;
+        justify-content: flex-end;
+        margin: 1rem 0 0.5rem;
     }
     .download-btn {
         display: inline-block;
-        padding: 0.5rem 1.25rem;
-        border: 1px solid var(--accent);
-        color: var(--accent) !important;
-        font-family: var(--font-mono);
-        font-size: 0.75rem;
-        letter-spacing: 0.06em;
+        padding: 0.65rem 1rem;
+        border: 1px solid #bcc4ce;
+        background: #f6f3ed;
+        color: #1d232b !important;
+        font-size: 0.82rem;
+        letter-spacing: 0.08em;
         text-transform: uppercase;
-        transition: all 0.2s;
     }
     .download-btn:hover {
-        background: var(--accent);
-        color: #fff !important;
+        background: #ece6dd;
         opacity: 1 !important;
     }
+    .resume-content {
+        margin-top: 0.5rem;
+    }
     .resume-content h2 {
-        font-size: 0.75rem;
+        margin-top: 2rem;
+        margin-bottom: 0.8rem;
+        padding-bottom: 0.4rem;
+        border-bottom: 1px solid #d9dde3;
+        font-size: 0.92rem;
+        letter-spacing: 0.1em;
         text-transform: uppercase;
-        letter-spacing: 0.12em;
-        color: var(--accent);
-        font-family: var(--font-mono);
-        margin-top: 2.5rem;
-        margin-bottom: 1rem;
-        padding-bottom: 0.5rem;
-        border-bottom: 1px solid var(--border);
+        color: #374655;
     }
     .resume-content h3 {
-        font-size: 1.1rem;
-        margin-top: 1.25rem;
-        margin-bottom: 0.2rem;
-        color: var(--text);
+        margin-top: 1.15rem;
+        margin-bottom: 0.15rem;
+        font-size: 1.12rem;
+        color: #161b21;
     }
     .resume-content h4 {
-        font-size: 0.8rem;
-        color: var(--text-dim);
-        font-weight: 400;
-        font-family: var(--font-mono);
         margin-top: 0;
-        margin-bottom: 0.75rem;
+        margin-bottom: 0.65rem;
+        font-size: 0.95rem;
+        font-weight: 400;
+        color: #5f6b76;
+    }
+    .resume-content p,
+    .resume-content li {
+        font-size: 1rem;
+        line-height: 1.62;
+        color: #222a33;
+    }
+    .resume-content p {
+        margin: 0 0 0.85rem;
     }
     .resume-content ul {
-        margin-left: 1.25rem;
-        margin-bottom: 1rem;
+        margin: 0 0 1rem 1.15rem;
+        padding: 0;
     }
     .resume-content li {
         margin-bottom: 0.3rem;
-        font-size: 0.95rem;
+        padding-left: 0.2rem;
     }
-    .resume-content p {
-        font-size: 0.95rem;
-        margin-bottom: 0.75rem;
+    .resume-content strong {
+        color: #161b21;
+    }
+    @media (max-width: 760px) {
+        .resume-paper {
+            padding: 1.25rem;
+        }
+        .resume-header {
+            flex-direction: column;
+        }
+        .resume-meta {
+            min-width: auto;
+            text-align: left;
+        }
+        .resume-actions {
+            justify-content: flex-start;
+        }
     }
 </style>
 {{ end }}
