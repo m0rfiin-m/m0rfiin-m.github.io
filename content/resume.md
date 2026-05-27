@@ -93,10 +93,10 @@ Entertainment business professional with 8+ years of experience across community
 LinkedIn Marketing Labs Certification · HubSpot Social Media Marketing Certification
 
 **Marketing & Digital**  
-Digital Marketing Foundations · Social Media Marketing Foundations · Content Marketing Foundations · SEO Foundations · Email and Newsletter Marketing Foundations · Marketing Foundations: Ecommerce
+Digital Marketing Foundations · Social Media Marketing Foundations · Content Marketing Foundations · SEO Foundations
 
 **Business Analysis & Project Management**  
-Business Analysis Foundations · Business Process Modeling · Agile Requirements Foundations · Requirements Elicitation and Analysis · Project Management Foundations: Requirements
+Business Analysis Foundations · Agile Requirements Foundations · Requirements Elicitation and Analysis
 
 **Data & Technology**  
 Learning Data Science: Understanding the Basics · Managing Data with Microsoft 365 · Figma Essential Training: The Basics
@@ -104,16 +104,16 @@ Learning Data Science: Understanding the Basics · Managing Data with Microsoft 
 ## Skills
 
 **Community & Audience**  
-Community Management · Discord Operations · Fan Engagement · Community Events · Moderation Systems · Relationship Management
+Community Management · Discord Operations · Fan Engagement · Community Events · Moderation Systems
 
 **Content & Marketing**  
-Content Strategy · Content Writing · Content Scheduling · Social Media Marketing · Growth Marketing · SEO · Brand Partnerships
+Content Strategy · Content Writing · Content Scheduling · Social Media Marketing · Growth Marketing · SEO
 
 **Esports & Operations**  
-Tournament Operations · Sponsorship Development · Live Streaming · Workflow Coordination · Documentation
+Tournament Operations · Sponsorship Development · Workflow Coordination · Documentation
 
 **Analytics & Support**  
-Data Analytics · Engagement Tracking · Project Management · Customer Service · De-escalation · Technical Troubleshooting
+Engagement Tracking · Project Management · Customer Service · De-escalation · Technical Troubleshooting
 
 ## Tools
 
