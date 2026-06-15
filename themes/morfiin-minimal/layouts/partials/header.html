@@ -1,13 +1,15 @@
 <header>
     <div class="container">
         <a href="{{ .Site.BaseURL }}" class="site-brand">
-            <span class="site-title">{{ .Site.Title }}</span>
-            <span class="site-subtitle">{{ .Site.Params.program }} &middot; {{ .Site.Params.school }}</span>
+            <span class="site-title">m0rfiin</span>
+            <span class="site-subtitle">Community ops, esports strategy, and entertainment business</span>
         </a>
 
+        {{ $current := . }}
         <nav>
             {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+            <a href="{{ .URL }}"{{ if $active }} class="active"{{ end }}>{{ .Name }}</a>
             {{ end }}
         </nav>
     </div>

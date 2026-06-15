@@ -2,40 +2,20 @@
 <div class="container">
     <div class="intro">
         <span class="intro-label">{{ .Site.Params.program }} &middot; {{ .Site.Params.school }}</span>
-        <h1>Masters Class Journal</h1>
-        <p>{{ .Site.Params.description }}</p>
+        <h1>Marco Morfin</h1>
+        <p>Community operations, esports strategy, and entertainment business work collected in one portfolio-first site.</p>
     </div>
 
     {{ $posts := first 10 (where .Site.RegularPages "Type" "posts") }}
     {{ if $posts }}
-    <div class="posts-header">Journal Entries &mdash; {{ len $posts }} total</div>
+    <div class="posts-header">Masters Journal - {{ len $posts }} recent entries</div>
     <div class="posts">
         {{ range $posts }}
-        <article class="post-item">
-            <span class="entry-label">Journal Entry</span>
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-
-            <div class="meta">
-                <time>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
-                {{ if .Params.tags }}
-                <span class="tags">
-                    {{ range .Params.tags }}
-                    <span class="tag">#{{ . }}</span>
-                    {{ end }}
-                </span>
-                {{ end }}
-            </div>
-
-            {{ if .Summary }}
-            <p>{{ .Summary }}</p>
-            {{ end }}
-
-            <a href="{{ .Permalink }}" class="read-more">Read entry &rarr;</a>
-        </article>
+        {{ partial "post-preview.html" . }}
         {{ end }}
     </div>
     {{ else }}
-    <p style="color: var(--text-dim); font-family: var(--font-mono); font-size: 0.9rem;">No entries yet. Check back soon.</p>
+    <p class="surface-label">No entries yet. Check back soon.</p>
     {{ end }}
 </div>
 {{ end }}

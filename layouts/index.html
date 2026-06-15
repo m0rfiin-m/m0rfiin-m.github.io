@@ -1,65 +1,192 @@
 {{ define "main" }}
 <div class="container">
     <section class="hero">
-        <span class="hero-label">{{ .Site.Params.program }} &middot; {{ .Site.Params.school }}</span>
-        <h1>Marco Morfin</h1>
-        <p class="hero-role">Community Manager &middot; Esports Strategist &middot; Digital Operations</p>
-        <p class="hero-bio">Entertainment business professional with experience managing live-service gaming communities, building brand strategy from scratch, and translating audience data into decisions that actually move numbers.</p>
+        <div class="hero-copy">
+            <span class="hero-label">{{ .Site.Params.program }} &middot; {{ .Site.Params.school }}</span>
+            <h1>Marco Morfin</h1>
+            <p class="hero-role">I build the operating layer behind gaming communities, esports brands, and audience-led entertainment projects.</p>
+            <p class="hero-bio">My work sits where community behavior, content strategy, and business execution meet. I have managed large Discord communities, built engagement systems, and turned class strategy work into portfolio-ready esports concepts.</p>
 
-        <div class="hero-stats">
-            <div class="stat">
-                <span class="stat-value">15,921</span>
-                <span class="stat-label">Discord Members Managed</span>
+            <div class="hero-ctas">
+                <a href="{{ "work/" | relURL }}" class="btn-primary">View Portfolio</a>
+                <a href="{{ "resume/" | relURL }}" class="btn-secondary">Resume</a>
+                <a href="{{ "about/" | relURL }}" class="btn-secondary">About</a>
             </div>
-            <div class="stat">
-                <span class="stat-value">35%</span>
-                <span class="stat-label">Engagement Growth</span>
-            </div>
-            <div class="stat">
-                <span class="stat-value">$162K</span>
-                <span class="stat-label">Projected Year 1 Revenue</span>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-value">15,921</span>
+                    <span class="stat-label">Discord members managed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">35%</span>
+                    <span class="stat-label">Community engagement growth</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">$162K</span>
+                    <span class="stat-label">Projected Tempest Year 1 revenue</span>
+                </div>
             </div>
         </div>
 
-        <div class="hero-ctas">
-            <a href="{{ .Site.BaseURL }}work/" class="btn-primary">View Portfolio &rarr;</a>
-            <a href="{{ .Site.BaseURL }}resume/" class="btn-secondary">Resume</a>
-            <a href="{{ .Site.BaseURL }}about/" class="btn-secondary">About</a>
+        <aside class="hero-panel operations-board" aria-label="Portfolio operations board">
+            <div class="hero-panel-top">
+                <span class="surface-label">Operations board</span>
+                <h2 class="board-title">Signals I turn into systems.</h2>
+                <div class="board-status"><span class="status-dot" aria-hidden="true"></span>Active portfolio</div>
+            </div>
+            <div class="board-rows">
+                <div class="board-row">
+                    <div>
+                        <strong>Community health</strong>
+                        <span>Moderation, events, feedback loops, and retention habits.</span>
+                    </div>
+                    <span class="board-chip">15,921</span>
+                </div>
+                <div class="board-row">
+                    <div>
+                        <strong>Campaign signal</strong>
+                        <span>Structured challenges, recurring activations, and social content flow.</span>
+                    </div>
+                    <span class="board-chip">+35%</span>
+                </div>
+                <div class="board-row">
+                    <div>
+                        <strong>Sponsor fit</strong>
+                        <span>Audience positioning, category clarity, and revenue assumptions.</span>
+                    </div>
+                    <span class="board-chip">$162K</span>
+                </div>
+            </div>
+        </aside>
+    </section>
+
+    <section class="section-block case-study-feature tempest-feature">
+        <div class="case-study-media">
+            <img src="{{ "images/tempest/tempest-title.png" | relURL }}" alt="Tempest eSports title slide">
+        </div>
+        <div class="case-study-content">
+            <span class="case-study-kicker">Featured case study</span>
+            <h2>Tempest turns an esports concept into a sponsor-ready brand system.</h2>
+            <p>An FPS-focused esports strategy built from competitive analysis, audience segmentation, content planning, campaign budget logic, and a clearer community-led position.</p>
+            <div class="case-metrics">
+                <div class="case-metric">
+                    <strong>$162K</strong>
+                    <span>Year 1 projection</span>
+                </div>
+                <div class="case-metric">
+                    <strong>FPS</strong>
+                    <span>Niche focus</span>
+                </div>
+                <div class="case-metric">
+                    <strong>3</strong>
+                    <span>Competitors analyzed</span>
+                </div>
+            </div>
+            <a href="{{ "work/tempest-esports/" | relURL }}" class="btn-primary">Read case study</a>
         </div>
     </section>
 
-    <section>
+    <section class="section-block tanbii-proof">
+        <div class="proof-copy">
+            <span class="section-title">Community operations</span>
+            <h2>Tanbii shows the work behind the numbers.</h2>
+            <p>Discord growth was not just announcements and activity. It came from moderation systems, event design, intern coordination, feedback reporting, and campaigns that gave members a reason to return.</p>
+            <a href="{{ "work/tanbii-discord/" | relURL }}" class="btn-secondary">Read Tanbii case study</a>
+        </div>
+        <div class="proof-stack">
+            <div class="metric-card">
+                <span class="metric-value">532</span>
+                <span class="metric-label">members added during Tanbii Internship Challenge window</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-value">4</span>
+                <span class="metric-label">competition categories coordinated across community roles</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-block">
         <div class="section-header">
-            <span class="section-title">Featured Work</span>
-            <a href="{{ .Site.BaseURL }}work/" class="section-link">All projects &rarr;</a>
+            <div class="section-heading">
+                <span class="section-title">Selected work</span>
+                <h2>Case studies with an operating point of view.</h2>
+            </div>
+            <a href="{{ "work/" | relURL }}" class="section-link">All projects</a>
         </div>
 
         <div class="project-grid">
-            <div class="project-card">
-                <span class="project-card-label">Community Management</span>
-                <h3>Tanbii Discord</h3>
-                <p class="project-card-meta">Discord &amp; Community Manager &middot; Jan 2024 – Jun 2025</p>
-                <p style="font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; flex: 1;">Managed a 15,921-member Discord server for a Web3 gaming platform. Built moderation systems, ran structured engagement campaigns, and grew daily active users by 30%.</p>
-                <a href="{{ .Site.BaseURL }}work/tanbii-discord/" style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 1.25rem; display: inline-block;">View project &rarr;</a>
-            </div>
+            {{ with .Site.GetPage "work/tanbii-discord" }}{{ partial "project-card.html" . }}{{ end }}
+            {{ with .Site.GetPage "work/tempest-esports" }}{{ partial "project-card.html" . }}{{ end }}
+        </div>
+    </section>
 
-            <div class="project-card">
-                <span class="project-card-label">Brand Strategy</span>
-                <h3>Tempest eSports</h3>
-                <p class="project-card-meta">Founder &amp; Strategist &middot; 2025 – Present</p>
-                <p style="font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; flex: 1;">Full esports brand concept built from competitive analysis and market research. FPS-focused, community-led model with $162K projected Year 1 revenue and a clear path to sponsorship.</p>
-                <a href="{{ .Site.BaseURL }}work/tempest-esports/" style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 1.25rem; display: inline-block;">View project &rarr;</a>
+    <section class="section-block">
+        <div class="section-header">
+            <div class="section-heading">
+                <span class="section-title">What I do</span>
+                <h2>Entertainment work needs audience sense and operating discipline.</h2>
+            </div>
+        </div>
+        <div class="what-i-do">
+            <div class="practice-card">
+                <span class="practice-index">01 / Community</span>
+                <h3>Build the systems people feel but rarely see.</h3>
+                <p>Moderation workflows, event cadence, member feedback, reporting loops, and the habits that keep communities usable at scale.</p>
+            </div>
+            <div class="practice-card">
+                <span class="practice-index">02 / Strategy</span>
+                <h3>Turn audience behavior into brand direction.</h3>
+                <p>Competitive analysis, positioning, sponsor fit, content pillars, and practical launch plans for gaming and entertainment ideas.</p>
+            </div>
+            <div class="practice-card">
+                <span class="practice-index">03 / Operations</span>
+                <h3>Keep the work clear enough to execute.</h3>
+                <p>Project coordination, documentation, tool workflows, and communication that helps teams move without losing the audience signal.</p>
             </div>
         </div>
     </section>
 
-    <section style="margin-top: 4rem;">
-        <div class="section-header">
-            <span class="section-title">Masters Journal</span>
-            <a href="{{ .Site.BaseURL }}posts/" class="section-link">All entries &rarr;</a>
+    <section class="section-block">
+        <div class="tools-marquee" aria-label="Tools and systems">
+            <div class="tools-track">
+                <span class="tool-pill">Discord</span>
+                <span class="tool-pill">Notion</span>
+                <span class="tool-pill">Google Sheets</span>
+                <span class="tool-pill">Canva</span>
+                <span class="tool-pill">OBS</span>
+                <span class="tool-pill">Slack</span>
+                <span class="tool-pill">Hootsuite</span>
+                <span class="tool-pill">Later</span>
+                <span class="tool-pill">Figma</span>
+                <span class="tool-pill">Discord Analytics</span>
+                <span class="tool-pill">Discord</span>
+                <span class="tool-pill">Notion</span>
+                <span class="tool-pill">Google Sheets</span>
+                <span class="tool-pill">Canva</span>
+                <span class="tool-pill">OBS</span>
+                <span class="tool-pill">Slack</span>
+                <span class="tool-pill">Hootsuite</span>
+                <span class="tool-pill">Later</span>
+                <span class="tool-pill">Figma</span>
+                <span class="tool-pill">Discord Analytics</span>
+            </div>
         </div>
-        <p style="font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; max-width: 560px;">Academic reflections and program milestones from the M.S. in Entertainment Business at Full Sail University. Separate from the professional portfolio.</p>
-        <a href="{{ .Site.BaseURL }}posts/" class="btn-secondary" style="margin-top: 1.25rem; display: inline-block;">Browse journal &rarr;</a>
+    </section>
+
+    <section class="section-block journal-bridge">
+        <div class="surface">
+            <span class="surface-label">Masters Journal</span>
+            <h2>What I am learning while building the next version.</h2>
+            <p>Academic reflections from the M.S. in Entertainment Business program. The journal stays separate from the portfolio, but it shows the thinking behind the work.</p>
+            <a href="{{ "posts/" | relURL }}" class="btn-secondary">Browse journal</a>
+        </div>
+        <div class="surface">
+            <span class="surface-label">Resume</span>
+            <h3>Experience in one place.</h3>
+            <p>Community management, customer operations, esports projects, tools, certifications, and education in a clean reading format.</p>
+            <a href="{{ "resume/" | relURL }}" class="btn-primary">Open resume</a>
+        </div>
     </section>
 </div>
 {{ end }}

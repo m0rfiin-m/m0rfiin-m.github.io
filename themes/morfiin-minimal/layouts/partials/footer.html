@@ -1,6 +1,10 @@
 <footer>
     <div class="container">
         <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
-        <span class="footer-school">{{ .Site.Params.program }} &middot; {{ .Site.Params.school }}</span>
+        <div class="footer-links">
+            <a class="footer-school" href="{{ "work/" | relURL }}">Portfolio</a>
+            <a class="footer-school" href="{{ "posts/" | relURL }}">Masters Journal</a>
+            <a class="footer-school" href="mailto:m.m0rfiin@gmail.com">Contact</a>
+        </div>
     </div>
 </footer>

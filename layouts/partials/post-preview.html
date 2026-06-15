@@ -1,0 +1,21 @@
+<article class="post-item">
+    <span class="entry-label">Masters Journal</span>
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+    <div class="meta">
+        <time>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
+        {{ if .Params.tags }}
+        <span class="tags">
+            {{ range first 4 .Params.tags }}
+            <span class="tag">#{{ . }}</span>
+            {{ end }}
+        </span>
+        {{ end }}
+    </div>
+
+    {{ with .Summary }}
+    <p>{{ . }}</p>
+    {{ end }}
+
+    <a href="{{ .Permalink }}" class="read-more">Read entry</a>
+</article>

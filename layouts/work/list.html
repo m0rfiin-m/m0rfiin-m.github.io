@@ -1,9 +1,9 @@
 {{ define "main" }}
 <div class="container">
-    <section class="hero" style="padding-bottom: 3rem; margin-bottom: 3rem;">
+    <section class="intro">
         <span class="hero-label">Portfolio &middot; {{ $.Site.Params.school }}</span>
         <h1>Work</h1>
-        <p class="hero-bio">Projects, roles, and experience from community management, esports strategy, and entertainment business operations.</p>
+        <p>Selected projects from community operations, esports strategy, and entertainment business. Each piece shows the work behind the outcome: systems, audience insight, campaign structure, or brand positioning.</p>
     </section>
 
     <div class="section-header">
@@ -12,24 +12,7 @@
 
     <div class="project-grid">
         {{ range .Pages }}
-        <article class="project-card">
-            <span class="project-card-label">{{ with .Params.category }}{{ . }}{{ else }}Project{{ end }}</span>
-            <h3><a href="{{ .Permalink }}" style="color: var(--text); text-decoration: none;">{{ .Title }}</a></h3>
-            <p class="project-card-meta">
-                {{ with .Params.role }}{{ . }}{{ end }}{{ with .Params.period }} &middot; {{ . }}{{ end }}
-            </p>
-            {{ if .Summary }}
-            <p style="font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; flex: 1;">{{ .Summary }}</p>
-            {{ end }}
-            {{ if .Params.tags }}
-            <div class="tags" style="margin-top: 0.75rem; margin-bottom: 0;">
-                {{ range .Params.tags }}
-                <span class="tag">#{{ . }}</span>
-                {{ end }}
-            </div>
-            {{ end }}
-            <a href="{{ .Permalink }}" style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 1.25rem; display: inline-block;">View project &rarr;</a>
-        </article>
+        {{ partial "project-card.html" . }}
         {{ end }}
     </div>
 </div>

@@ -1,0 +1,18 @@
+<article class="project-card">
+    <span class="project-card-label">{{ with .Params.category }}{{ . }}{{ else }}Project{{ end }}</span>
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <p class="project-card-meta">
+        {{ with .Params.role }}{{ . }}{{ end }}{{ with .Params.period }} &middot; {{ . }}{{ end }}
+    </p>
+    {{ with .Summary }}
+    <p>{{ . }}</p>
+    {{ end }}
+    {{ if .Params.tags }}
+    <div class="tags card-tags">
+        {{ range first 4 .Params.tags }}
+        <span class="tag">#{{ . }}</span>
+        {{ end }}
+    </div>
+    {{ end }}
+    <a href="{{ .Permalink }}" class="project-card-link">View project</a>
+</article>
