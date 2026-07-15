@@ -72,10 +72,12 @@ This timeline documents the development of my digital leadership portfolio acros
 - Begin documenting Full Sail coursework outcomes as portfolio content
 - Research target companies and roles for post-graduation job search
 
-**July 2026 - Goal: Deepen Industry Content**
-- Publish 2 posts focused on esports industry analysis and Tempest eSports development updates
-- Add any new project work from Masters coursework to the Work section
-- Update LinkedIn profile to link directly to portfolio
+**July 2026 - Publishing and Distribution Portfolio Update**
+- Added a Work case study for *Built for the Feed*, a narrative business and pop-culture nonfiction proposal developed in MMC6257
+- Documented the project's audience, market position, promotional plan, twelve-chapter structure, and three completed sample chapters
+- Compared KDP, IngramSpark, and Lulu and selected KDP as the simplest starting point for print-on-demand distribution
+- Updated the portfolio timeline to connect this coursework to publishing strategy and creator-led entertainment
+- Next goal: publish the MMC6257 Mastery Journal reflection
 
 **August 2026 - Goal: Expand Reach**
 - Publish 2 posts with focus on entertainment business operations and strategy
