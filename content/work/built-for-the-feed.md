@@ -2,6 +2,7 @@
 title: "Built for the Feed"
 date: 2026-07-14
 draft: false
+summary: "Developed a nonfiction publishing proposal with a twelve-chapter outline, three sample chapters, audience research, and a promotion plan."
 category: "Publishing Strategy"
 role: "Author & Strategist"
 period: "July 2026"

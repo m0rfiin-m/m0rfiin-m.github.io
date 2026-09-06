@@ -1,55 +1,43 @@
 ---
-title: "How We Used a Community Competition to Find Talent and Drive Engagement at Tanbii"
+title: "Coordinating the Tanbii Internship Challenge"
 date: 2026-05-16
 draft: false
 tags: ["community management", "discord", "gaming", "web3", "engagement strategy"]
 ---
 
-Most Discord engagement tactics are short-lived. A giveaway spikes activity for a day. A poll gets responses for a few hours. Then the server goes quiet again.
+During my February–June 2025 internship at Tanbii, I managed a community competition that connected members with potential internship roles. I reviewed work from approximately 40 contestants and selected three candidates.
 
-The Tanbii Internship Challenge was built to do something different. It was a month-long community competition designed to do two things at once: drive sustained engagement across the server and surface real talent for Tanbii's internship pipeline.
+The project brought together the parts of community work I enjoy most: clear instructions, coordination across teams, and a concrete outcome for participants.
 
-It worked on both.
+## The Purpose
 
-## The Problem It Solved
+Tanbii had a Discord community of nearly 16,000 members. The internship challenge gave interested members a structured way to show their skills and gave the organization work samples to review when selecting candidates.
 
-Tanbii was a Web3 gaming and sustainability platform with a Discord community approaching 16,000 members. The challenge with a server that size is that most of those members are passive. They joined, they watched, they never participated. Turning passive members into active contributors is one of the hardest problems in community management.
-
-At the same time, the organization needed a way to identify people with real skills. Traditional internship applications pull from outside the community. We had thousands of people already engaged with the product who might be exactly what the team needed. We just had no way to find them.
-
-The Internship Challenge was the solution to both problems.
+My responsibility was to manage the challenge and keep the submission and review process organized. I coordinated with teams across the organization and reported progress as the work moved toward selection.
 
 ## How It Worked
 
-We structured the competition around four categories that matched actual roles the organization needed:
+The competition included four categories:
 
 - Social Media and Marketing
 - Discord and Community Management
 - Game Soundtrack Creation
 - Web3 Marketing
 
-Members submitted their work through Google Forms. I promoted the competition through Discord announcements, pinned posts, and engagement mechanics that rewarded participation. Each category had its own criteria so submissions were evaluated fairly across very different skill sets.
+Members submitted work through Google Forms. I promoted the challenge through Discord announcements and organized the submissions for review. The categories helped clarify what participants could contribute and which skills the team needed to evaluate.
 
-The structure mattered. When you give people specific categories to compete in, you lower the barrier to entry. A member who was strong at graphic design knew exactly where they belonged. Someone who had been quietly moderating conversations for months saw Community Management and knew they had a shot.
+The work also involved follow-up. Community questions needed answers, submissions needed review, and the relevant teams needed enough information to make decisions. Surveys, email, and weekly Notion reporting supported that coordination.
 
 ## What It Produced
 
-The campaign drove measurable results. Daily active users increased by approximately 30% during the month-long run. Overall community engagement grew by approximately 35% across events and activations we ran during this period. The competition created a reason for members to come back every day, check submissions, and root for people they knew.
+I reviewed work from approximately 40 contestants and selected three candidates for new internship roles. That is the clearest outcome of the project: community participation led to a defined hiring decision.
 
-More importantly, it surfaced real candidates. People who competed had already demonstrated initiative, creativity, and familiarity with the platform. That is a better signal than a resume from someone who found the listing on LinkedIn.
+The challenge also gave me practical experience managing a process from announcement through evaluation and selection. I had to connect communication with the work happening behind it, rather than treating the event as a series of promotional posts.
 
 ## What I Learned
 
-Running this taught me a few things that apply well beyond Discord servers.
+A clear submission process matters. Participants need to understand what they are being asked to produce and how to submit it. Reviewers need work organized in a way that supports a decision.
 
-Community competitions work when the categories feel achievable. If the ask is too broad or too vague, people opt out. Specificity lowers friction.
+Follow-up is part of community operations. An announcement starts the process, but responding to questions and keeping teams informed helps move it forward. That lesson applies to esports events, creator programs, and other projects that depend on participation from several groups.
 
-The feedback loop matters as much as the event itself. Members who felt seen, whose submissions were acknowledged, stayed active after the challenge ended. Those who submitted and heard nothing disappeared. Acknowledgment is retention.
-
-AI tools made the execution faster. I used ChatGPT throughout to draft announcements, write submission guidelines, and produce promotional copy. That freed up time to focus on the strategy and the community relationships, the parts that actually required human judgment.
-
-## The Bigger Picture
-
-The Tanbii Internship Challenge was not just an engagement campaign. It was a talent pipeline with community buy-in built into the design. The people who participated already believed in the platform. That is worth something.
-
-For anyone building community operations in gaming, esports, or creator brands, that is the model worth paying attention to. Build events that serve the community and the organization at the same time. When the incentives align, the results follow.
+[Read the Tanbii case study](/work/tanbii-discord/) for more on my community operations and reporting work.

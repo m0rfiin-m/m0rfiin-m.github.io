@@ -4,27 +4,27 @@
         <div class="hero-copy">
             <span class="hero-label">{{ .Site.Params.program }} &middot; {{ .Site.Params.school }}</span>
             <h1>Marco Morfin</h1>
-            <p class="hero-role">I build the operating layer behind gaming communities, esports brands, and audience-led entertainment projects.</p>
-            <p class="hero-bio">My work sits where community behavior, content strategy, and business execution meet. I have managed large Discord communities, built engagement systems, and turned class strategy work into portfolio-ready esports concepts.</p>
+            <p class="hero-role">I coordinate gaming communities, esports projects, and entertainment business plans.</p>
+            <p class="hero-bio">My experience includes Discord community support, an esports league development internship, and graduate coursework in entertainment business. These projects show my role, the work I produced, and what I learned.</p>
 
             <div class="hero-ctas">
                 <a href="{{ "work/" | relURL }}" class="btn-primary">View Portfolio</a>
                 <a href="{{ "resume/" | relURL }}" class="btn-secondary">Resume</a>
-                <a href="{{ "about/" | relURL }}" class="btn-secondary">About</a>
+                <a href="mailto:m.m0rfiin@gmail.com" class="btn-secondary">Contact</a>
             </div>
 
             <div class="hero-stats">
                 <div class="stat">
                     <span class="stat-value">15,921</span>
-                    <span class="stat-label">Discord members managed</span>
+                    <span class="stat-label">Members in community supported</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-value">35%</span>
-                    <span class="stat-label">Community engagement growth</span>
+                    <span class="stat-value">~40</span>
+                    <span class="stat-label">Challenge contestants reviewed</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-value">$162K</span>
-                    <span class="stat-label">Projected Tempest Year 1 revenue</span>
+                    <span class="stat-value">3</span>
+                    <span class="stat-label">Internship candidates selected</span>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
         <aside class="hero-panel operations-board" aria-label="Portfolio operations board">
             <div class="hero-panel-top">
                 <span class="surface-label">Operations board</span>
-                <h2 class="board-title">Signals I turn into systems.</h2>
+                <h2 class="board-title">What my work covers.</h2>
                 <div class="board-status"><span class="status-dot" aria-hidden="true"></span>Active portfolio</div>
             </div>
             <div class="board-rows">
@@ -45,17 +45,17 @@
                 </div>
                 <div class="board-row">
                     <div>
-                        <strong>Campaign signal</strong>
-                        <span>Structured challenges, recurring activations, and social content flow.</span>
+                        <strong>Community programs</strong>
+                        <span>Challenge coordination, contestant reviews, and weekly reporting.</span>
                     </div>
-                    <span class="board-chip">+35%</span>
+                    <span class="board-chip">Tanbii</span>
                 </div>
                 <div class="board-row">
                     <div>
                         <strong>Sponsor fit</strong>
                         <span>Audience positioning, category clarity, and revenue assumptions.</span>
                     </div>
-                    <span class="board-chip">$162K</span>
+                    <span class="board-chip">Tempest</span>
                 </div>
             </div>
         </aside>
@@ -67,12 +67,12 @@
         </div>
         <div class="case-study-content">
             <span class="case-study-kicker">Featured case study</span>
-            <h2>Tempest turns an esports concept into a sponsor-ready brand system.</h2>
-            <p>An FPS-focused esports strategy built from competitive analysis, audience segmentation, content planning, campaign budget logic, and a clearer community-led position.</p>
+            <h2>Tempest Esports: planning a competitive gaming organization.</h2>
+            <p>A graduate coursework concept for an FPS esports organization, with plans for competitive teams, community development, sponsorships, and branded merchandise.</p>
             <div class="case-metrics">
                 <div class="case-metric">
-                    <strong>$162K</strong>
-                    <span>Year 1 projection</span>
+                    <strong>Concept</strong>
+                    <span>Graduate coursework</span>
                 </div>
                 <div class="case-metric">
                     <strong>FPS</strong>
@@ -91,17 +91,17 @@
         <div class="proof-copy">
             <span class="section-title">Community operations</span>
             <h2>Tanbii shows the work behind the numbers.</h2>
-            <p>Discord growth was not just announcements and activity. It came from moderation systems, event design, intern coordination, feedback reporting, and campaigns that gave members a reason to return.</p>
+            <p>During my February to June 2025 internship, I supported community operations and coordinated a challenge across several teams. My responsibilities included reviewing contestants, communicating updates, and documenting results.</p>
             <a href="{{ "work/tanbii-discord/" | relURL }}" class="btn-secondary">Read Tanbii case study</a>
         </div>
         <div class="proof-stack">
             <div class="metric-card">
-                <span class="metric-value">532</span>
-                <span class="metric-label">members added during Tanbii Internship Challenge window</span>
+                <span class="metric-value">~40</span>
+                <span class="metric-label">challenge contestants reviewed</span>
             </div>
             <div class="metric-card">
-                <span class="metric-value">4</span>
-                <span class="metric-label">competition categories coordinated across community roles</span>
+                <span class="metric-value">3</span>
+                <span class="metric-label">candidates selected for internship roles</span>
             </div>
         </div>
     </section>
@@ -110,7 +110,7 @@
         <div class="section-header">
             <div class="section-heading">
                 <span class="section-title">Selected work</span>
-                <h2>Case studies with an operating point of view.</h2>
+                <h2>Experience and project work.</h2>
             </div>
             <a href="{{ "work/" | relURL }}" class="section-link">All projects</a>
         </div>
@@ -118,6 +118,7 @@
         <div class="project-grid">
             {{ with .Site.GetPage "work/tanbii-discord" }}{{ partial "project-card.html" . }}{{ end }}
             {{ with .Site.GetPage "work/tempest-esports" }}{{ partial "project-card.html" . }}{{ end }}
+            {{ with .Site.GetPage "work/built-for-the-feed" }}{{ partial "project-card.html" . }}{{ end }}
         </div>
     </section>
 
@@ -131,7 +132,7 @@
         <div class="what-i-do">
             <div class="practice-card">
                 <span class="practice-index">01 / Community</span>
-                <h3>Build the systems people feel but rarely see.</h3>
+                <h3>Support clear, welcoming communities.</h3>
                 <p>Moderation workflows, event cadence, member feedback, reporting loops, and the habits that keep communities usable at scale.</p>
             </div>
             <div class="practice-card">
@@ -142,7 +143,7 @@
             <div class="practice-card">
                 <span class="practice-index">03 / Operations</span>
                 <h3>Keep the work clear enough to execute.</h3>
-                <p>Project coordination, documentation, tool workflows, and communication that helps teams move without losing the audience signal.</p>
+                <p>Project coordination, documentation, tool workflows, and communication that helps teams complete their work.</p>
             </div>
         </div>
     </section>

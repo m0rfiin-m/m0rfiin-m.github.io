@@ -5,7 +5,7 @@
         {{ with .Params.role }}{{ . }}{{ end }}{{ with .Params.period }} &middot; {{ . }}{{ end }}
     </p>
     {{ with .Summary }}
-    <p>{{ . }}</p>
+    <p>{{ . | plainify | truncate 220 }}</p>
     {{ end }}
     {{ if .Params.tags }}
     <div class="tags card-tags">

@@ -24,7 +24,7 @@ This timeline documents the development of my digital leadership portfolio acros
 - Began LinkedIn Learning certifications in marketing and business analysis to strengthen credentials
 
 **November 2025 - Credential Building**
-- Completed 20+ LinkedIn Learning certifications across digital marketing, business analysis, project management, and data management
+- Continued professional learning in marketing, business analysis, and project management
 - Developed a clearer picture of target roles in esports and entertainment business operations
 - Drafted initial personal brand statement
 
@@ -37,12 +37,12 @@ This timeline documents the development of my digital leadership portfolio acros
 **January 2026 - Tempest eSports Concept Begins**
 - Started developing Tempest eSports as a brand concept for coursework
 - Conducted competitive analysis of the esports market
-- Identified white space for community-led organizations in a franchise-dominated industry
+- Focused the concept on competitive gaming and community participation
 
 **February 2026 - Deep Research Phase**
 - Completed audience segmentation research targeting the 18-34 gaming demographic
 - Built brand positioning framework with a defined unique value proposition
-- Developed revenue model alternatives to traditional sponsorship dependency
+- Explored sponsorship and branded merchandise revenue assumptions
 
 ## Phase 3: Portfolio Build (March - May 2026)
 
@@ -57,7 +57,7 @@ This timeline documents the development of my digital leadership portfolio acros
 
 **May 2026 - Blog and Portfolio Launched**
 - Built and launched personal portfolio site using Hugo, hosted on GitHub Pages
-- Site URL: https://m0rfiin-m.github.io/m0rfiin-blog/
+- Site URL: https://m0rfiin-m.github.io/
 - Wrote and published a professional About page positioning skills and experience for the entertainment business
 - Created Work section with dedicated pages for Tempest eSports, Tanbii community management, and certifications
 - Published three portfolio posts:
@@ -86,14 +86,15 @@ This timeline documents the development of my digital leadership portfolio acros
 
 ## Phase 5: Completion and Launch (September - October 2026)
 
-**September 2026 - Goal: Portfolio Polish**
-- Publish final pre-graduation posts summarizing program outcomes and goals
-- Conduct full portfolio review: update all pages, verify links, confirm professional presentation
-- Add any final project work or certifications earned during the program
-- Prepare for post-graduation transition: resume aligned with portfolio, LinkedIn optimized
+**September 2026 - Portfolio Review**
+- Published clearer case studies that distinguish internship experience from graduate coursework
+- Corrected Tanbii dates and replaced unsupported percentages with documented challenge responsibilities and selections
+- Recentered Tempest on esports operations, sponsorships, and merchandise
+- Added direct homepage contact access and aligned the resume with the portfolio
+- Next step: obtain an industry professional or Career Development audit
 
-**October 2026 - Program Completion**
-- Masters in Entertainment Business completed at Full Sail University
-- Portfolio fully live with 12+ months of documented professional development
-- Blog active with 10+ posts covering esports strategy, community management, entertainment business, and industry analysis
-- Ready to present to employers as a complete digital leadership portfolio
+**October 2026 - Planned Program Completion**
+- Complete the M.S. in Entertainment Business at Full Sail University, expected October 2026
+- Apply professional reviewer feedback before graduation
+- Add completed final coursework and verify resume, project links, and image credits
+- Present the portfolio to employers seeking community operations, esports, and project coordination skills

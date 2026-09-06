@@ -1,38 +1,37 @@
 ---
-title: "Tempest eSports"
+title: "Tempest Esports"
 date: 2026-05-16
 draft: false
-category: "Brand Strategy"
-role: "Founder & Strategist"
-period: "2025 - Present"
+category: "Graduate Project"
+summary: "Developed an FPS esports business concept with competitor research, sponsorship planning, campaign mockups, and a proposed marketing budget."
+role: "Esports Business Strategy"
+period: "Graduate coursework"
 tags: ["esports", "brand strategy", "market research", "audience development", "FPS", "digital marketing"]
 ---
 
-![Tempest eSports](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/tempest-title.png)
+![Tempest Esports](/images/tempest/tempest-title.png)
 
-Tempest eSports is a concept brand I developed during my Master's in Entertainment Business at Full Sail University. What began as a class assignment became a full digital marketing strategy I intend to build into something real.
+Tempest Esports is a concept brand I developed during my Master's in Entertainment Business at Full Sail University. What began as a class assignment became a full digital marketing strategy I intend to build into something real.
 
 ## The Concept
 
-Tempest is an FPS-focused esports organization built around competitive first-person shooter titles: Call of Duty, Valorant, Apex Legends, and Counter-Strike. It operates on a remote-first, LA-based model with lean digital-first operations.
+Tempest is an FPS-focused esports organization built around competitive first-person shooter titles: Call of Duty, Valorant, Apex Legends, and Counter-Strike. The proposed organization would be based in Los Angeles and operate remotely. Selecting an initial title and competition level would come before recruiting a roster.
 
-The business model runs on two revenue streams. On the consumer side: content and merchandise. On the B2B side: sponsorship and partnership packages targeting brands seeking FPS audience reach. Proposed digital properties include TempestEsports.gg and TempestEsportsHQ.com.
+The proposed revenue streams are sponsorship packages and branded merchandise. Team content would support audience growth and sponsor exposure. Proposed digital properties include TempestEsports.gg and TempestEsportsHQ.com.
 
-![Business Concept](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/tempest-business-concept.png)
 
 ## Competitive Analysis
 
 I analyzed three major competitors to identify where Tempest fits and how to position against them.
 
-**100 Thieves** has a strong brand identity and integrated content engine, but its lifestyle focus dilutes a pure FPS niche.
+**100 Thieves** informed my analysis of how lifestyle branding, merchandise, and content can support an esports organization. For Tempest, I chose a narrower initial focus on FPS competition.
 
-**FaZe Clan** generates high attention value through creator-led reach, but carries volatility tied to personality dependence.
+**FaZe Clan** informed my thinking about creator reach and the risks of tying the organization’s identity too closely to individual personalities.
 
-**Team Liquid** has deep competitive credibility and global reach, but its scale makes the brand feel unfocused.
+**Team Liquid** provided a reference for competitive scale and an established fan community. Tempest’s proposed starting point would be smaller, with one initial roster.
 
-Tempest's position: blend competition with content, avoid overreliance on personalities, and stay tightly focused on FPS identity. Niche focus creates clarity, lower operating complexity, and stronger sponsor alignment than broader competitors.
+Tempest's position: blend competition with content, avoid overreliance on personalities, and stay tightly focused on FPS identity. The intent is to keep early operations manageable and make the audience proposition clear to prospective sponsors.
 
-![Competitor Analysis](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/tempest-competitor-analysis.png)
 
 ## Target Market
 
@@ -56,27 +55,29 @@ The content plan runs on four pillars:
 
 Every piece of content includes a clear call to action. Formats span short-form video, livestream clips, static graphics, blog posts, email prompts, and posters.
 
-![Content Strategy](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/tempest-content-strategy.png)
+![Content Strategy](/images/tempest/tempest-content-strategy.png)
 
 ## Campaign Mockups
 
 Three campaign assets were developed to show the strategy in action.
 
-![Campaign Mockups](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/tempest-editorial-mockups.png)
+Concept artwork and proposed campaign examples developed for coursework. The pictured roster and events do not represent launched operations.
+
+![Campaign Mockups](/images/tempest/tempest-editorial-mockups.png)
 
 **Mockup 1 - Instagram Reel: Top Plays**
 
-![Top Plays Mockup](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/mockup-top-plays.jpeg)
+![Top Plays Mockup](/images/tempest/mockup-top-plays.jpeg)
 
 **Mockup 2 - Website Blog Post: Meet the Team**
 
-![Meet the Team Mockup](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/mockup-meet-the-team.jpeg)
+![Meet the Team Mockup](/images/tempest/mockup-meet-the-team.jpeg)
 
 **Mockup 3 - Event Poster: Community Night**
 
-![Community Night Mockup](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/mockup-community-night.jpeg)
+![Community Night Mockup](/images/tempest/mockup-community-night.jpeg)
 
-## Year 1 Budget: $15,000
+## Proposed Year 1 Marketing Budget: $15,000
 
 | Category | Allocation | Amount |
 |---|---|---|
@@ -87,9 +88,9 @@ Three campaign assets were developed to show the strategy in action.
 | Email & CRM | 4% | $600 |
 | Print Materials | 3% | $500 |
 
-Projected Year 1 revenue: $162,000 scaling from $5K/month to $22K/month. Budget as a percentage of projected revenue: 9.2%, well below the 20% threshold for new ventures.
+The $15,000 budget is a planning assumption. Spending would depend on available funding and demand for sponsorship packages and merchandise. Revenue forecasts still need to be validated against package prices, sales volumes, and costs. Allocations are rounded.
 
-## KPI Framework
+## Proposed Year 1 Targets
 
 - **Social Media:** 10,000 combined followers across TikTok, Instagram, X, and Twitch with 5% engagement rate by end of Year 1
 - **SEO / Website:** 2,500 unique monthly visitors with under 40% bounce rate by Q4
@@ -97,8 +98,8 @@ Projected Year 1 revenue: $162,000 scaling from $5K/month to $22K/month. Budget 
 
 ## Analytics Plan
 
-Performance is tracked through Hootsuite for social reach and engagement, Google Analytics for website traffic and content performance, and Bitly for offline-to-online conversion from print materials. Social metrics are reviewed weekly for A/B testing. Website and traditional marketing are assessed monthly for ROI.
+The measurement plan would use Hootsuite for social reach and engagement, Google Analytics for website traffic and content performance, and Bitly for offline-to-online conversion from print materials. Social metrics would be reviewed weekly to compare content approaches. Website and traditional marketing performance would be assessed monthly. These are proposed tools and review intervals, not results from a live campaign.
 
 ## Status
 
-Concept stage with a complete strategic foundation. The next step is moving from strategy to operations: identifying the right title and region to enter, building the team, and launching the first community touchpoints.
+Tempest remains a concept-stage graduate project. The completed work includes research, marketing plans, and campaign mockups. The next step is moving from strategy to operations: identifying the right title and region to enter, building the team, and launching the first community touchpoints.
