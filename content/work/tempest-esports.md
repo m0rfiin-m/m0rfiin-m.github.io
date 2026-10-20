@@ -3,7 +3,7 @@ title: "Tempest Esports"
 date: 2026-05-16
 draft: false
 category: "Graduate Project"
-summary: "Developed an FPS esports business concept with competitor research, sponsorship planning, campaign mockups, and a proposed marketing budget."
+summary: "Developed an esports business concept from marketing research and campaign mockups into a final business plan and 12-slide presentation."
 role: "Esports Business Strategy"
 period: "Graduate coursework"
 tags: ["esports", "brand strategy", "market research", "audience development", "FPS", "digital marketing"]
@@ -11,7 +11,38 @@ tags: ["esports", "brand strategy", "market research", "audience development", "
 
 ![Tempest Esports](/images/tempest/tempest-title.png)
 
-Tempest Esports is a concept brand I developed during my Master's in Entertainment Business at Full Sail University. What began as a class assignment became a full digital marketing strategy I intend to build into something real.
+Tempest Esports is a concept brand I developed during my Master's in Entertainment Business at Full Sail University. The project developed from digital marketing coursework into a business plan and a 12-slide final-project presentation. It demonstrates my approach to organizing a proposal, building a clear deck, and revising connected project materials.
+
+## Final Business Plan and Presentation
+
+**Updated October 20, 2026 · Full Sail University · Final Project: Business Plan**
+
+### Project Brief and My Role
+
+I developed Tempest as an academic business proposal and organized the research, marketing approach, operating assumptions, and financial outlook into a presentation. The final concept focuses on a proposed Los Angeles VALORANT organization supported by community activity, sponsorships, and merchandise.
+
+My work included structuring the business story, connecting the sections of the plan, and preparing the deck and narration script. The completed presentation materials include 12 slides and a corresponding script covering the market opportunity, company concept, target audience, competition, operations, marketing, milestones, financial outlook, funding assumptions, and ownership.
+
+### How the Plan Developed
+
+The earlier marketing work below explored several FPS titles and a broader campaign budget. The final presentation narrowed the concept to VALORANT and used a proposed first-year marketing budget of $3,600. It also introduced staged paid-player staffing and a scoped sponsor pilot with defined content, community sessions, and reporting.
+
+These revisions made the proposal more specific about what would need to be delivered and funded. I kept projected sales, assumed funding, and proposed launch milestones separate from achieved results. The final materials identify demand testing and funding confirmation as prerequisites to operating the business.
+
+### Skills Demonstrated
+
+- **Presentation development:** Condensing a detailed proposal into a 12-slide sequence with supporting narration.
+- **Project organization:** Connecting audience, marketing, operations, timelines, and financial assumptions.
+- **Revision:** Updating the concept and presentation as the scope and planning assumptions changed.
+- **Clear communication:** Distinguishing a proposed business model from an operating company and measured results.
+
+### Current Outcome
+
+The outcome is a set of academic planning and presentation materials. Tempest has not launched, secured funding, or produced the projected sales. The work provides a concrete example of how I build a well-rounded deck, complete structured projects within short time frames, and make adjustments as needed.
+
+## Earlier Digital Marketing Work
+
+The sections below document the earlier coursework stage. Its multi-title scope, $15,000 marketing budget, and campaign targets are historical planning assumptions; the final presentation described above uses a narrower concept and revised budget.
 
 ## The Concept
 
@@ -102,4 +133,4 @@ The measurement plan would use Hootsuite for social reach and engagement, Google
 
 ## Status
 
-Tempest remains a concept-stage graduate project. The completed work includes research, marketing plans, and campaign mockups. The next step is moving from strategy to operations: identifying the right title and region to enter, building the team, and launching the first community touchpoints.
+Tempest remains a concept-stage graduate project. The completed work includes research, marketing plans, campaign mockups, a business plan, and final presentation materials. Before any launch, the concept would require validated customer demand, confirmed funding, and a feasible operating plan.
