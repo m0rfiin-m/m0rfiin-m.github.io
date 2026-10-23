@@ -15,7 +15,7 @@ Tempest Esports is a concept brand I developed during my Master's in Entertainme
 
 ## Final Business Plan and Presentation
 
-**Updated October 20, 2026 · Full Sail University · Final Project: Business Plan**
+**Updated October 22, 2026 · Full Sail University · Final Project: Business Plan**
 
 ### Project Brief and My Role
 
@@ -35,6 +35,22 @@ These revisions made the proposal more specific about what would need to be deli
 - **Project organization:** Connecting audience, marketing, operations, timelines, and financial assumptions.
 - **Revision:** Updating the concept and presentation as the scope and planning assumptions changed.
 - **Clear communication:** Distinguishing a proposed business model from an operating company and measured results.
+
+### Selected Slides from the Final Presentation
+
+These excerpts show the final academic proposal. Prices, staffing, and dates are planning assumptions. They do not represent signed sponsors, hired players, or completed operations.
+
+**Sponsor pilot and merchandise:** I defined a limited campaign scope so a prospective sponsor could understand the deliverables and proposed price.
+
+![Slide 3: proposed three-month sponsor pilot at $1,500, with six posts, two community sessions, and a campaign report](/images/tempest/final/sponsor-pilot.svg)
+
+**Competitive positioning:** I compared the proposed offer with established esports organizations and creator campaigns to explain the intended point of difference.
+
+![Slide 5: comparison of established esports organizations, creator campaigns, and the Tempest proposal](/images/tempest/final/competition.svg)
+
+**Conditional milestones:** I staged the proposed roster around available funding and readiness work rather than treating the launch as guaranteed.
+
+![Slide 8: proposed readiness work and conditional staffing milestones from 2026 through 2029](/images/tempest/final/milestones.svg)
 
 ### Current Outcome
 
