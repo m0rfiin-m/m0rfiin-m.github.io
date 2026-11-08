@@ -13,3 +13,7 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Local editor settings (Octarine, Obsidian)
+.octarine/
+.obsidian/
