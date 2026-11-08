@@ -1,6 +1,6 @@
 # m0rfiin-blog
 
-Marco Morfin's own Hugo portfolio and blog, live at https://m0rfiin-m.github.io (repo: github.com/m0rfiin-m/m0rfiin-blog). It's a portfolio first and a journal second: it supports his professional brand and his Full Sail coursework, covering entertainment tech and AI.
+Marco Morfin's own Hugo portfolio and blog, live at https://m0rfiin-m.github.io (repo: github.com/m0rfiin-m/m0rfiin-m.github.io, renamed from m0rfiin-blog). It's a portfolio first and a journal second: it supports his professional brand and his Full Sail coursework, covering entertainment tech and AI.
 
 ## Files and publishing
 
