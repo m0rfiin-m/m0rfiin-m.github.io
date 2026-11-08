@@ -13,7 +13,7 @@ Marco Morfin's own Hugo portfolio and blog, live at https://m0rfiin-m.github.io 
 ## Build and deploy
 
 - Hugo isn't installed on Marco's PC. Pushing to `main` builds and deploys the site through GitHub Actions (`.github/workflows/deploy.yml`, Hugo 0.121.2). After a push, check that the deploy run passed (`gh run list --limit 3`).
-- `.github/workflows/publish-from-octarine.yml` runs every 30 minutes. It copies posts marked `published: true` from the `m0rfiin-m/Octarine-Docs` repo `Blog-Ready/` folder into `content/posts/` and commits them. So `main` on GitHub often has commits that aren't local: always `git pull` before editing.
+- Marco writes posts directly in this folder with VS Code, Obsidian, or Octarine. The old Octarine-Docs auto-publish workflow was removed on 2026-11-08 after its token expired. Still `git pull` before editing, since he may push from another machine.
 - `.octarine/` and `.obsidian/` are local editor settings and are gitignored. Leave them alone.
 
 ## Writing
